@@ -23,4 +23,23 @@
 // todo.edit();
 // todo.delete();
 
-// to loop through an array
+// Loop through an array
+
+// foreach loop
+// const cars = ['chevrolet','toyota', 'Kia','ferrari']
+
+// cars.forEach (function(car,index){
+//    console.log(`${index} to ${car}`)
+// });
+
+// Mapping
+const user = [
+    {id:1, name:'Genie'},
+    {id:2, name:'Soluchi'},
+    {id:3, name:'Dannie'},
+    {id:4, name:'Gigi'},
+]
+const ids = user.map(function (user){
+    return user.id;
+})
+console.log(ids)
